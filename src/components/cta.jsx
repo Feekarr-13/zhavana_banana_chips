@@ -27,7 +27,7 @@ const CTA = () => {
       <a
         href={getWaApi()}
         target="blank"
-        className={`${style.btnChocolate}`}
+       className={`${style.btnYellow} inline-block`}
       >Klik Disini</a>
     </div>
   );

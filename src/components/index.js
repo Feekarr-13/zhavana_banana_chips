@@ -1,13 +1,13 @@
-import Navbar from "./Navbar"
+import Navbar from "./navbar"
 import Home from "./home"
 import Product from "./Products"
 import Tips from "./Tips"
-import Banner from "./Banner"
+import Banner from "./banner"
 import Testimonials from "./Testimonials"
 import Gallery from "./Gallery"
 import CTA from "./CTA"
 import Contact from "./Contact"
-import Footer from "./Footer"
+import Footer from "./footer"
 import NotFound from "./not_found"
 
 export {

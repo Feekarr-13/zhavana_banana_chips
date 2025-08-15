@@ -102,7 +102,7 @@ const Contact = () => {
                 className={`${style.paragraph} max-w-3xl mx-auto mb-20 translate-y-52 opacity-0`}
             >
                 Jika Anda memiliki saran atau masukan untuk meningkatkan
-                pengalaman dengan Loka Chips, jangan ragu untuk mengirimkan
+                pengalaman dengan Zhavana Chips, jangan ragu untuk mengirimkan
                 pesan. Kami sangat antusias untuk mendengar pandangan Anda dan
                 terus mengembangkan produk kami untuk kepuasan Anda.
             </p>

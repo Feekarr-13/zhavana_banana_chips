@@ -3,7 +3,7 @@ import gsap, {Power4} from "gsap"
 import { ScrollTrigger } from "gsap/ScrollTrigger"
 import useScrollBlock from "../custonhooks/useScrollBlock"
 
-import {logo} from "../assets"
+import logo from "../assets/Logo21.png";
 import {navLinks} from "../constants"
 import style from "../styles";
 
@@ -74,8 +74,8 @@ const Navbar = () => {
   return (
     <div className={`${style.paddingX} fixed w-full bg-primary navContainer z-40 shadow-md`} id="navbar-container">
       <nav className="flex justify-between items-center relative max-w-[1300px] py-3 sm:py-4 m-auto">
-        <div className="w-24 z-10 max-w-7xl">
-          <a href="/"><img src={logo} alt="Loka Chips Logo" /></a>
+        <div className="w-24 z-18 max-w-7xl">
+          <a href="/"><img src={logo} alt="Logo2" /></a>
         </div>
         
         {/* Desktop Menu */}
@@ -112,13 +112,6 @@ const Navbar = () => {
             <rect className="lmenu3" y="20" width="32" height="4" rx="1" fill="#341D12"/>
           </svg>
         </div>
-
-        {/* Mobile Menu */}
-        {/*Aku pikir untuk menggunakan layout ini untuk mobile navbarnya,
-          tapi aku tidak yakin dengan user experiens nya.
-          Soalnya, saat user mengklik humb menunya, itu di pojok kanan atas,
-          sedangkan nav itemnya akan muncul di sudut kiri bawah.
-        */}
         <ul className="mobileMenu -translate-y-[300%] h-screen md:hidden pl-5 pb-8 flex flex-col justify-end absolute bg-primaryHalf backdrop-blur top-0 -left-[20px] w-screen">{
             navLinks.map((nav, index)=>(
               <li

@@ -6,7 +6,7 @@ import { FaGlobe } from 'react-icons/fa'
 import { AiFillInstagram, AiOutlineWhatsApp } from 'react-icons/ai'
 
 import style from "../styles"
-import { logo } from "../assets"
+import logo from "../assets/Logo21.png";
 import { infos } from "../constants"
 import { getWaApi } from "../constants"
 
@@ -15,7 +15,7 @@ const Footer = () => {
   const [currentYear] = useState(new Date().getFullYear());
   const [isCopy, setIsCopy] = useState(false);
 
-  const phoneNumber = '081392990921'; // Ganti dengan nomor telepon yang ingin disalin
+  const phoneNumber = 'C'; // Ganti dengan nomor telepon yang ingin disalin
 
   const copyToClipboard = () => {
     navigator.clipboard.writeText(phoneNumber)
@@ -31,7 +31,7 @@ const Footer = () => {
 
   return (
     <div className={`${style.paddingX} max-w-[1300px] mx-auto flex flex-col`}>
-      <div className="w-full h-1 mb-8 bg-secondary"></div>
+      <div className="w-full h-1 mb-8 bg-yellow-500"></div>
       <div className="flex flex-col ss:flex-row-reverse ss:justify-between mb-8">
         <div className={`${style.paragraph} flex flex-col xs:flex-row xs:justify-between`}>
           <ul className="mb-4 ss:mb-0 ss:mr-1 sm:mr-6 md:mr-10">{
@@ -72,18 +72,20 @@ const Footer = () => {
               </p>
             </p>
             <a
-              href={getWaApi(true)}
-              target="blank"
-              className={style.btnYellow}
-            >Hubungi Sekarang</a>
+            href={getWaApi(true)}
+            target="blank"
+            className={`${style.btnYellow} whitespace-nowrap`}
+          >
+            Hubungi Sekarang
+          </a>
           </div>
         </div>
        <div className="w-fit ss:w-44 sm:w-fit flex flex-col justify-between gap-2">
         <a href="/">
          <img className="w-44 sm:w-52" src={logo} alt="Logo Zhavana" />
         </a>
-        <p className={`${style.paragraph} text-xs sm:text-sm`}>
-        &copy; {currentYear} Zhavana Banana Chips. By{" "}
+        <p className={`${style.paragraph} text-xs sm:text-sm whitespace-nowrap`}>
+        &copy; {currentYear} Zhavana Chips. By{" "}
         <a
           href="https://instagram.com/fekarrwww"
           target="_blank"
@@ -103,15 +105,15 @@ const Footer = () => {
   function setIcon(id){
     switch (id) {
       case 'location':
-        return ( <FaLocationDot className="text-2xl text-primary" /> )
+        return ( <FaLocationDot className="text-2xl text-yellow-500" /> )
       case 'email':
-        return( <BiLogoGmail className="text-2xl text-primary" /> )
+        return( <BiLogoGmail className="text-2xl text-yellow-500" /> )
       case 'website':
-        return( <FaGlobe className="text-2xl text-primary" /> )
+        return( <FaGlobe className="text-2xl text-yellow-500" /> )
       case 'instagram':
-        return( <AiFillInstagram className="text-2xl text-primary" /> )
+        return( <AiFillInstagram className="text-2xl text-yellow-500" /> )
       case "whatsapp":
-        return( <AiOutlineWhatsApp className="text-3xl text-primary" /> )
+        return( <AiOutlineWhatsApp className="text-2xl text-yellow-500" /> )
       default:
         return false
     }

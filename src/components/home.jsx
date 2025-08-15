@@ -88,13 +88,13 @@ const Home = () => {
           <h1
             className={`homeHeading ${style.heading1} mb-[17px] max-w-[700px] invertSelection`}
           >
-            <span className="text-white invertSelection">Loka Chips</span>,
+            <span className="text-yellow-500 invertSelection">Zhavana Chips</span>,
             Cemilan Wajib Mahasiswa
           </h1>
           <p
             className={`homeParagraph ${style.paragraph} mb-10 md:mb-14 max-w-[541px] invertSelection`}
           >
-            Kembangkan cita rasa dan semangatmu dengan setiap gigitan Loka
+            Kembangkan cita rasa dan semangatmu dengan setiap gigitan Zhavana
             Chips. Kami hadir untuk mengiringi perjalanan inspirasimu, menjadi
             pilihan cemil wajib bagi mahasiswa yang berani mengeksplorasi rasa.
           </p>
@@ -106,12 +106,12 @@ const Home = () => {
             >
               Order Sekarang
             </a>
-            <a
-              href="#kontak"
-              className={`${style.btnChocolate} inline-block`}
-            >
-              Kontak Kami
-            </a>
+           <a
+            href="#kontak"
+            className={`${style.btnYellow} inline-block`}
+          >
+            Kontak Kami
+          </a>
           </div>
         </div>
         <a

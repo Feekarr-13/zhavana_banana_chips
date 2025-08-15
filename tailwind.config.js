@@ -5,24 +5,15 @@ export default {
   theme: {
     extend: {
       colors: {
-        // primary: "#F0C91A",
-        // primaryHalf: "rgba(255, 199, 39, .5)",
-        // secondary: "#341D12",
-        // accent: "#DD9A00",
-        // chocolate: "#805F0F",
-        // balado: "#CB2727",
-        // baladoHalf: "rgb(203, 39, 39, .5)",
-        // txtcolor: "#1E1E1E",
-
-        primary: "rgb(var(--color-primary))",
-        primaryHalf: "rgba(var(--color-primary-half))",
-        secondary: "rgb(var(--color-secondary))",
-        accent: "rgb(var(--color-accent)",
-        chocolate: "rgb(var(--color-chocolate))",
-        balado: "rgb(var(--color-balado))",
-        baladoHalf: "rgb(var(--color-balado-half))",
-        txtcolor: "rgb(var(--color-txtcolor))",
-        bkg: "rgb(var(--color-bkg))",
+        primary: "#FDF9ED",        // Teal utama
+        primaryHalf: "rgba(0, 150, 136, 0.5)",
+        secondary: "#FFC265",      // Coral aksen
+        accent: "#F9A825",         // Kuning madu
+        chocolate: "#6D4C41",      // Cokelat lembut
+        balado: "#E53935",         // Merah hangat
+        baladoHalf: "rgba(229, 57, 53, 0.5)",
+        txtcolor: "#1E1E1E",       // Teks utama
+        bkg: "#FEFEFE",            // Background cream dari gambar
       },
       fontFamily: {
         poppins: ["Poppins"],
@@ -38,7 +29,6 @@ export default {
       lg: "1200px",
       xl: "1700px",
     },
-    
   },
   plugins: [],
 }
