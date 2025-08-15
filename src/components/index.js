@@ -1,6 +1,6 @@
 import Navbar from "./navbar"
 import Home from "./home"
-import Product from "./Products"
+import Product from "./products"
 import Tips from "./Tips"
 import Banner from "./banner"
 import Testimonials from "./Testimonials"
