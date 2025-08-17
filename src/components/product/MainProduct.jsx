@@ -147,7 +147,7 @@ const MainProduct = ({ product, setCurIndex, setIsDetailActive }) => {
             <img
               className="max-w-[247px] mb-10 sm:mb-16 hover:scale-105 transition-all duration-1000 hover:-rotate-1"
               src={product.img}
-              alt={`Loka Chips Rasa ${product.title}`}
+              alt={`Zhavana Chips Rasa ${product.title}`}
             />
           </div>
           <div className="arrows w-full flex justify-center items-center">

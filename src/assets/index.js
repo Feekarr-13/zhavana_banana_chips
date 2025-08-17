@@ -1,6 +1,7 @@
 import logo from "./loka_chips_logo.gif";
 import heroimg from "./hero_img.png";
-import original1 from "./original_tilt.png";
+import produk1 from "./produk1.png";
+import Produk2 from "./Produk2.png";
 import original2 from "./original_stand.png";
 import Chocolate1 from "./chocolate_tilt.png";
 import Chocolate2 from "./chocolate_stand.png";
@@ -35,7 +36,8 @@ import not_found from "./not_found.svg"
 export {
     logo,
     heroimg,
-    original1,
+    produk1,
+    Produk2,
     original2,
     Chocolate1,
     Chocolate2,

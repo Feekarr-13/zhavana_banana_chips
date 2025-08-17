@@ -1,5 +1,5 @@
 import {
-    original1, original2, Chocolate1, Chocolate2, balado1, balado2,
+    produk1, Produk2, Chocolate2, balado1, balado2,
     enjoy1, enjoy2, enjoy3,
     character1, character2, character3, character4, character5,
     thumbNgallery, thumb2, thumb3, thumb4, thumb5, thumb6, thumb7, thumb8,
@@ -36,29 +36,42 @@ export const navLinks = [
 
 export const produks = [
     {
-        id: "original",
-        title: "Original",
+        id: "produk",
+        title: "produk",
         tagline: "Rasa Asli dan Autentik, Kerenyahan Pisang Sejati",
-        img: original1,
+        img: produk1,
         detail: {
                 desc1:
                     "Zhavana Chips Rasa Original adalah pilihan utama bagi pencinta kerupuk yang menghargai kesederhanaan dalam cita rasa. Terbuat dari pisang pilihan Selayar yang diolah dengan hati-hati, setiap kerupuk menghadirkan rasa autentik pisang yang segar dan kenyal yang sulit ditolak.",
                 desc2:
                     "Tanpa campuran apa pun, Zhavana Chips Rasa Original menghadirkan pengalaman kerupuk pisang yang murni.  Nikmaati kelezatan pisang Selayar dalam bentuk yang sederhana namun memikat. Cocok untuk dinikmati di berbagai kesempatan, menjadi teman setia bagi mereka yang menginginkan cita rasa pisang yang otentik dan khas dalam setiap gigitannya.",
-                img: original2
+                img: produk1
             }
     },
-    {
+     {
         id: "Chocolate",
         title: "Chocolate",
         tagline: "Manisnya Kelezatan dengan Sentuhan Coklat",
-        img: Chocolate1,
+        img: Chocolate2,
         detail: {
                 desc1:
                     "Zhavana Chips Rasa Coklat mengajakmu untuk merasakan kelezatan manis yang memikat, menggabungkan kerupuk renyah dengan sentuhan coklat yang menggoda. Setiap gigitan adalah perpaduan sempurna antara kekenyalan pisang Selayar dan sensasi coklat lezat yang melumer di mulutmu.",
                 desc2:
                     "Rasakan petualangan rasa dengan Zahavana Chips Rasa Coklat, di mana coklat cair memeluk setiap kerupuk, menciptakan harmoni manis yang luar biasa bersama kelembutan pisang. Cocok untuk dinikmati sendiri atau dibagikan, Zahavana Chips Rasa Coklat membawa manisnya kelezatan dalam setiap momen. Biarkan dirimu terhanyut dalam kelezatan manis dan renyah yang tak tertandingi, dengan setiap gigitan membawamu pada perjalanan rasa yang memikat dan menggugah selera.",
                 img: Chocolate2
+            }
+    },
+    {
+        id: "Balado",
+        title: "Balado",
+        tagline: "Pedes Maanisnya Kelezatan dengan Sentuhan rasa Balado",
+        img: Produk2,
+        detail: {
+                desc1:
+                    "Zhavana Chips Rasa Coklat mengajakmu untuk merasakan kelezatan manis yang memikat, menggabungkan kerupuk renyah dengan sentuhan coklat yang menggoda. Setiap gigitan adalah perpaduan sempurna antara kekenyalan pisang Selayar dan sensasi coklat lezat yang melumer di mulutmu.",
+                desc2:
+                    "Rasakan petualangan rasa dengan Zahavana Chips Rasa Coklat, di mana coklat cair memeluk setiap kerupuk, menciptakan harmoni manis yang luar biasa bersama kelembutan pisang. Cocok untuk dinikmati sendiri atau dibagikan, Zahavana Chips Rasa Coklat membawa manisnya kelezatan dalam setiap momen. Biarkan dirimu terhanyut dalam kelezatan manis dan renyah yang tak tertandingi, dengan setiap gigitan membawamu pada perjalanan rasa yang memikat dan menggugah selera.",
+                img: Produk2
             }
     },
     {

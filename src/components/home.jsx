@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import gsap, { Power4, Back } from "gsap";
 
 import style from "../styles";
-import { heroimg } from "../assets";
+import Zhavana1 from "../assets/zhavana_1.png";
 import { getWaApi } from "../constants";
 
 const Home = () => {
@@ -77,9 +77,9 @@ const Home = () => {
         id="home"
       >
         <img
-          src={heroimg}
-          alt="2 Loka Chips Products"
-          className="imgHero w-full xs:max-w-[490px] sm:translate-x-10"
+          src={Zhavana1}
+          alt="Zhavana Chips Product"
+          className="imgHero w-full xs:max-w-[600px] sm:translate-x-10"
         />
         <div className="heroContent flex flex-col mb-10 md:pt-10">
           <h3 className={`homeHeading ${style.heading2} invertSelection`}>
