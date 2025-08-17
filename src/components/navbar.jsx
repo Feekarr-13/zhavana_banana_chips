@@ -74,7 +74,7 @@ const Navbar = () => {
   return (
     <div className={`${style.paddingX} fixed w-full bg-primary navContainer z-40 shadow-md`} id="navbar-container">
       <nav className="flex justify-between items-center relative max-w-[1300px] py-3 sm:py-4 m-auto">
-        <div className="w-24 z-18 max-w-7xl">
+        <div className="w-24 z-16 max-w-7xl">
           <a href="/"><img src={logo} alt="Logo2" /></a>
         </div>
         
