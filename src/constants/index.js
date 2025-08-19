@@ -2,7 +2,7 @@ import {
     produk1, Produk2, Chocolate2, balado1, balado2,
     enjoy1, enjoy2, enjoy3,
     character1, character2, character3, character4, character5,
-    thumbNgallery, thumb2, thumb3, thumb4, thumb5, thumb6, thumb7, thumb8,
+    thumbNgallery, thumb2, thumb3, thumb4, Model4, Model2, Model3, Model1,
     gallery2, gallery3, gallery4, gallery5, gallery6, gallery7, gallery8
 } from "../assets";
 
@@ -187,28 +187,28 @@ export const gallerys = [
     },
     {
         id: "gallery5",
-        thumb: thumb5,
+        thumb: Model4,
         preview: gallery5,
         alt: "Zhavana Chips Image",
         link: "https://www.instagram.com/keripikpisangslyr/"
     },
     {
         id: "gallery6",
-        thumb: thumb6,
+        thumb: Model2,
         preview: gallery6,
         alt: "Zhavana Chips Image",
         link: "https://www.instagram.com/keripikpisangslyr/"
     },
     {
         id: "gallery7",
-        thumb: thumb7,
+        thumb: Model3,
         preview: gallery7,
         alt: "Zhavana Chips Image",
         link: "https://www.instagram.com/keripikpisangslyr/"
     },
     {
         id: "gallery8",
-        thumb: thumb8,
+        thumb: Model1,
         preview: gallery8,
         alt: "Zhavana Chips Image",
         link: "https://www.instagram.com/keripikpisangslyr/"
@@ -238,8 +238,8 @@ export const infos = [
     },
    {
     id: "whatsapp",
-    content: "+6289655221572",
-    link: "https://api.whatsapp.com/send?phone=6289655221572&text=Halo%20Zhavana%20Banana%20Chips!"
+    content: "+6282324360965",
+    link: "https://api.whatsapp.com/send?phone=6282324360965&text=Halo%20Zhavana%20Banana%20Chips!"
     },
 
 ];
@@ -249,11 +249,11 @@ const waApi = infos[infos.length - 1].link
 const questions = [
     [
         "Halo kak. Saya ingin pesan Zhavana Chipnya kak.",
-        "Tabe kak. Zahavana Chipnya masih ada?",
+        "Permisi kak. Zahavana Chipnya masih ada?",
         "Permisi kak. Saya mau pesan Zahavana Chips rasa ...",
         "Permisi kak. Aku mau order Zhavana Chipsnya kak",
         "Halo kak. Harga Zahavana Chipsnya berapa ya?",
-        "Tabe kak. Pesan Zhavana Chips kak, mau tanya harga.",
+        "Permisi kak. Pesan Zhavana Chips kak, mau tanya harga.",
     ],
     [
         "Halo kak. Saya ingin pesan Zhavana Chipnya kak, yang rasa ",

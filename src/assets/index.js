@@ -20,10 +20,10 @@ import thumbNgallery from "./thumb&gallery1.png";
 import thumb2 from "./thumb2.png"
 import thumb3 from "./thumb3.png"
 import thumb4 from "./thumb4.png"
-import thumb5 from "./thumb5.png"
-import thumb6 from "./thumb6.png"
-import thumb7 from "./thumb7.png"
-import thumb8 from "./thumb8.png"
+import Model4 from "./Model4.jpg"
+import Model2 from "./Model2.jpg"
+import Model3 from "./Model3.jpg"
+import Model1 from "./Model1.jpg"
 import gallery2 from "./gallery2.png";
 import gallery3 from "./gallery3.png";
 import gallery4 from "./gallery4.mp4"
@@ -56,10 +56,10 @@ export {
     thumb2,
     thumb3,
     thumb4,
-    thumb5,
-    thumb6,
-    thumb7,
-    thumb8,
+    Model4,
+    Model2,
+    Model3,
+    Model1,
     gallery2,
     gallery3,
     gallery4,
