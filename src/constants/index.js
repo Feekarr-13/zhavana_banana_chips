@@ -2,8 +2,8 @@ import {
     produk1, Produk2, Chocolate2, balado1, balado2,
     enjoy1, enjoy2, enjoy3,
     character1, character2, character3, character4, character5,
-    thumbNgallery, thumb2, thumb3, thumb4, Model4, Model2, Model3, Model1,
-    gallery2, gallery3, gallery4, gallery5, gallery6, gallery7, gallery8
+    Model7, thumb4, Model4, Model2, Model3, Model1, Model6, vidio1,
+    zhavana3,
 } from "../assets";
 
 export const navLinks = [
@@ -158,58 +158,58 @@ export const testimonials = [
 
 export const gallerys = [
     {
-        id: "gallery1",
-        thumb: thumbNgallery,
-        preview: thumbNgallery,
+        id: "zhavana3",
+        thumb: zhavana3,
+        preview: zhavana3,
         alt: "Zhavana Chips Image",
         link: "https://www.instagram.com/keripikpisangslyr/"
     },
     {
-        id: "gallery2",
-        thumb: thumb2,
-        preview: gallery2,
+        id: "Model7",
+        thumb: Model7,
+        preview: Model7,
         alt: "Zhavana Chips Image",
         link: "https://www.instagram.com/keripikpisangslyr/"
     },
     {
-        id: "gallery3",
-        thumb: thumb3,
-        preview: gallery3,
+        id: "Model6",
+        thumb: Model6,
+        preview: Model6,
         alt: "Zhavana Chips Image",
         link: "https://www.instagram.com/keripikpisangslyr/"
     },
     {
         id: "gallery4",
         thumb: thumb4,
-        preview: gallery4,
+        preview: vidio1,
         alt: "Zhavana Chips Image",
         link: "https://www.instagram.com/keripikpisangslyr/"
     },
     {
-        id: "gallery5",
+        id: "Model4",
         thumb: Model4,
-        preview: gallery5,
+        preview: Model4,
         alt: "Zhavana Chips Image",
         link: "https://www.instagram.com/keripikpisangslyr/"
     },
     {
-        id: "gallery6",
+        id: "Model2",
         thumb: Model2,
-        preview: gallery6,
+        preview: Model2,
         alt: "Zhavana Chips Image",
         link: "https://www.instagram.com/keripikpisangslyr/"
     },
     {
-        id: "gallery7",
+        id: "Model3",
         thumb: Model3,
-        preview: gallery7,
+        preview: Model3,
         alt: "Zhavana Chips Image",
         link: "https://www.instagram.com/keripikpisangslyr/"
     },
     {
-        id: "gallery8",
+        id: "Model1",
         thumb: Model1,
-        preview: gallery8,
+        preview: Model1,
         alt: "Zhavana Chips Image",
         link: "https://www.instagram.com/keripikpisangslyr/"
     }

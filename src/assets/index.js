@@ -16,7 +16,7 @@ import character2 from "./character2.png"
 import character3 from "./character3.png"
 import character4 from "./character4.png"
 import character5 from "./character5.png"
-import thumbNgallery from "./thumb&gallery1.png";
+import zhavana3 from "./zhavana3.png";
 import thumb2 from "./thumb2.png"
 import thumb3 from "./thumb3.png"
 import thumb4 from "./thumb4.png"
@@ -24,8 +24,10 @@ import Model4 from "./Model4.jpg"
 import Model2 from "./Model2.jpg"
 import Model3 from "./Model3.jpg"
 import Model1 from "./Model1.jpg"
-import gallery2 from "./gallery2.png";
-import gallery3 from "./gallery3.png";
+// import video
+import vidio1 from "./vidio1.mp4";
+import Model7 from "./Model7.png";
+import Model6 from "./Model6.png";
 import gallery4 from "./gallery4.mp4"
 import gallery5 from "./gallery5.png";
 import gallery6 from "./gallery6.png";
@@ -52,7 +54,7 @@ export {
     character3,
     character4,
     character5,
-    thumbNgallery,
+    zhavana3,
     thumb2,
     thumb3,
     thumb4,
@@ -60,8 +62,9 @@ export {
     Model2,
     Model3,
     Model1,
-    gallery2,
-    gallery3,
+    vidio1,
+    Model7,
+    Model6,
     gallery4,
     gallery5,
     gallery6,
