@@ -16,7 +16,7 @@ import character2 from "./character2.png"
 import character3 from "./character3.png"
 import character4 from "./character4.png"
 import character5 from "./character5.png"
-import zhavana3 from "./zhavana3.png";
+import thumbNgallery from "./thumb&gallery1.png";
 import thumb2 from "./thumb2.png"
 import thumb3 from "./thumb3.png"
 import thumb4 from "./thumb4.png"
@@ -54,7 +54,7 @@ export {
     character3,
     character4,
     character5,
-    zhavana3,
+    thumbNgallery,
     thumb2,
     thumb3,
     thumb4,

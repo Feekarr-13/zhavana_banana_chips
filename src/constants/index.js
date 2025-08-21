@@ -2,8 +2,7 @@ import {
     produk1, Produk2, Chocolate2, balado1, balado2,
     enjoy1, enjoy2, enjoy3,
     character1, character2, character3, character4, character5,
-    Model7, thumb4, Model4, Model2, Model3, Model1, Model6, vidio1,
-    zhavana3,
+    thumbNgallery, Model7, thumb4, Model4, Model2, Model3, Model1, Model6, vidio1,
 } from "../assets";
 
 export const navLinks = [
@@ -158,9 +157,9 @@ export const testimonials = [
 
 export const gallerys = [
     {
-        id: "zhavana3",
-        thumb: zhavana3,
-        preview: zhavana3,
+        id: "gallery1",
+        thumb: thumbNgallery,
+        preview: thumbNgallery,
         alt: "Zhavana Chips Image",
         link: "https://www.instagram.com/keripikpisangslyr/"
     },
